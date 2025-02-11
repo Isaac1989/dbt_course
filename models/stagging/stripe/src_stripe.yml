@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: heroic-psyche-449618-s3
+    schema: stripe
+
+    tables:
+      - name: payments
+        freshness: null
